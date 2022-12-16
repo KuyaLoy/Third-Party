@@ -35,3 +35,15 @@ var isPlaying = false;
 function togglePlay() {
   isPlaying ? myAudio.pause() : myAudio.play();
 };
+
+
+const element = document.querySelector("main");
+
+element.addEventListener('wheel', (event) => {
+  event.preventDefault();
+
+  element.scrollBy({
+    left: event.deltaY < 0 ? -30 : 30,
+    
+  });
+});
