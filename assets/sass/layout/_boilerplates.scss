@@ -1,0 +1,50 @@
+@use '../utils' as u;
+
+// :root {
+//     --textColor: hsl(0, 0%, 100%);
+//     --borderColor: hsl(310, 100%, 50%);
+//     --background: hsl(0, 0%, 0%);
+//     --grey: hsl(0, 0%, 47%);
+// }
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    //font-size: u.rem(18);
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+// /* ===== Scrollbar CSS ===== */
+//   /* Firefox */
+//   * {
+//     scrollbar-width: auto;
+//     scrollbar-color: #f2a318 #e3e3e35d;
+//   }
+
+//   /* Chrome, Edge, and Safari */
+//   *::-webkit-scrollbar {
+//     width: 10px;
+//   }
+
+//   *::-webkit-scrollbar-track {
+//     background: #e3e3e323;
+//   }
+
+//   *::-webkit-scrollbar-thumb {
+//     background-color: var(--borderColor);
+//     border-radius: 10px;
+//     border: 2px solid #ffffff;
+//   }
