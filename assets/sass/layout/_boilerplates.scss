@@ -27,24 +27,24 @@ body {
 }
 
 
-// /* ===== Scrollbar CSS ===== */
-//   /* Firefox */
-//   * {
-//     scrollbar-width: auto;
-//     scrollbar-color: #f2a318 #e3e3e35d;
-//   }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #371b19 #e3e3e35d;
+  }
 
-//   /* Chrome, Edge, and Safari */
-//   *::-webkit-scrollbar {
-//     width: 10px;
-//   }
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    height: 10px;
+  }
 
-//   *::-webkit-scrollbar-track {
-//     background: #e3e3e323;
-//   }
+  *::-webkit-scrollbar-track {
+    background: #e3e5e4;
+  }
 
-//   *::-webkit-scrollbar-thumb {
-//     background-color: var(--borderColor);
-//     border-radius: 10px;
-//     border: 2px solid #ffffff;
-//   }
+  *::-webkit-scrollbar-thumb {
+    background-color: #371b19;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+  }
