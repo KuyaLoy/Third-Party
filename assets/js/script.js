@@ -113,3 +113,30 @@ element.addEventListener('wheel', (event) => {
 //   // $('main').show();
   
 // }
+
+
+// let lottiepics = 1;
+// var repeater;
+
+// function changeImage() {
+//   if(lottiepics < 5) {
+//     $(".not-hover img").attr("src","./assets/image/main/section2/buy/frame"+lottiepics+".webp");
+//     lottiepics++;
+//   } else {
+//     a = 1;
+//   }
+// } changeImage();
+
+
+var num = 1;
+
+var setTime = setInterval(countUp, 400)
+
+function countUp() {
+  if (num < 9) {
+    $(".not-hover img").attr("src","./assets/image/main/section2/buy/frame"+num+".webp");
+    num++;
+  } else {
+    num = 1;
+  }
+}
